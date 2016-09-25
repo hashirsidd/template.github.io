@@ -1,0 +1,308 @@
+body{
+    margin:0px; 
+    overflow-x: hidden;
+    height: 3500px;
+}
+.container{
+    height: 1000px;
+    background-color: #202222;
+}
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0.80);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 5em;
+    min-width: 1000px;
+    transition: all 0.2s ease;
+}
+.nav-bar li{
+    font-size: 16px;
+    height: 50px;
+    width: 119px;
+    padding: 0px 0px 0px px;
+    float: right;
+    margin-top: 26px;
+    color: #fff;
+    position: relative;
+    right: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-bar h3{
+    float: left;
+    color: white;
+    font-family: 'Italianno', cursive;
+    top: 30px;
+    position: relative;
+    font-weight: lighter;
+}
+.clear{
+    clear: both;
+}
+.nav-a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-a{
+    transition: all 1s ease;
+    
+}
+.nav-bar ul{
+    list-style: none;
+    margin-top: 0px;
+}
+.nav-bar p{
+    /*font-family: 'Pacifico', cursive !important;*/
+    font-family: 'Great Vibes', cursive !important;
+    color: #e5474b;
+    float: left;
+    font-size: 40px;
+    margin: 15px;
+}
+.clear{
+    clear: both;
+}
+.sec-div{
+    background-image: url(./img/9.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    top: -16px;
+    min-width: 800px;
+    border-radius: 3px;
+    margin-bottom: 55px;
+    
+}
+.sec-div h1{
+    display: inline
+}
+.h1-p  {
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    min-width: 800px;
+    line-height: 2em;
+}
+button{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    margin-top:10px; 
+    padding: 10px; 
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.h1-p button:hover{
+    background-color: rgba(55,55,55,0.5) ;
+}
+.h1-p button:active{
+    background-color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+.nav-a:hover{
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.clear{
+    clear: both;
+}
+.third-div{
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+    background-image: url(./img/8.jpg);
+    background-size: cover;
+    height: 900px;
+    border-radius: 3px;
+}
+.third-div h1{
+    position: relative;
+    top: 250px;
+    left: 140px;
+    color:  #fff;
+}
+.third-div p{
+    position: relative;
+    left: 140px;
+    top: 250px;
+    line-height: 2em;
+    color: #fff;
+}
+.third-div button{
+    position: relative;
+    top: 250px !important;
+    left: 142px;
+    cursor: pointer;
+}
+.third-div button:hover{
+     background-color: rgba(55,55,55,0.5) ;
+}
+.forth-div{
+    font-family: 'Comfortaa', cursive;
+    background-color: #fff;
+    width: 100%;
+    height: 855px;
+}
+.one-span {
+    width: 50%;
+    height: 500px;
+    background-color: #fdfbfb;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 150px;
+}
+.two-span{
+    width: 50%;
+    background-color: #f0f7f4;
+    height: 500px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 150px;
+}
+.clear{
+    clear: both;
+}
+.one-span h2{
+    color: #e5474b;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.two-span h2{
+    color: #e5474b;
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+span img{
+    position: relative;
+    left: 70px;
+    top: 50px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+span p{
+    position: relative;
+    left: 70px;
+    top: 50px;
+    line-height: 2em;
+}
+.fifth-div{
+    font-family: 'Montserrat', sans-serif;
+   /*font-family: 'Pavanam', sans-serif;*/
+    background-color: #e5474b;
+    width: 100%;
+    height: 855px;
+    color: #fff;
+}
+.fifth-div .h1{
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+.form-div{
+    position: relative;
+    top: 100px;
+}
+.span-one{
+    float: left;
+    position: relative;
+    left: 70px;
+}
+.span-two{
+    float: right;
+    position: relative;
+    right: 100px;
+}
+.clear{
+    clear: both;
+}
+h3{
+        margin-bottom: 0px;
+
+}
+input{
+    background: none;
+    height: 2em;
+    width: 500px;
+    border-radius: 0;
+    border: none;
+    border: solid 3px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    /*padding: 3px;*/
+    color: #fff;
+    text-decoration: none;
+    border-color: #dc8484;
+    outline: 0;
+    border-width: medium;
+    font-size: 16px;
+}
+input:hover{
+    border-color: #dcdada;
+    border-width: medium;;
+}
+input:active{
+    border-color: #fff;
+    border-width: medium;
+}
+textarea{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    width: 86%;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border: solid 3px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    color: #fff;
+    text-decoration: none;
+    border-color: #dc8484;
+    outline: 0;
+    border-width: medium;
+    font-size: 16px;
+}
+textarea:hover{
+    border-color: #dcdada;
+    border-width: medium;
+}
+.ta-h3 {
+    position: relative;
+    top:150px;
+    left: -435px;
+}
+.message-btn{
+     position:relative;
+     top:150px;
+     left:70px;
+}
+.message-btn:hover{
+     background-color: rgba(55,55,55,0.5) ;
+}
+.message-btn:active{
+    background-color: rgba(255,255,255,0.5);
+}
+#p{
+    font-family: 'Italianno', cursive;
+    float: right;
+    bottom: 12px;
+    position: relative;
+    bottom: -300px;
+    right: 30px;
+}
