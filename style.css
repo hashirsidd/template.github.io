@@ -201,7 +201,8 @@ span p{
 .fifth-div{
     font-family: 'Montserrat', sans-serif;
    /*font-family: 'Pavanam', sans-serif;*/
-    background-color: #e5474b;
+    /*background-color: #e5474b;*/
+    background-image: linear-gradient(60deg, #e5474b 50%, #d33c40 50%);
     width: 100%;
     height: 855px;
     color: #fff;
